@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: rgb(32, 32, 32);
+  --textcolor: rgb(150, 150, 150);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background);
+  color: var(--textcolor);
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.article {
+  overflow-y: scroll;
+  width: 80%;
+  height: 90vh;
+  padding: 2%;
+}
+.article p {
+  margin: 0.5em;
+  font-size: 1.2em;
+}
+.article h2 {
+  margin: 1.3em;
+  font-size: 1.8em;
+}
+.article h3 {
+  margin: 1.2em;
+  font-size: 1.4em;
+}
+.article br {
+  margin: 2em;
+}
+.article hr {
+  margin: 1em;
+}
+.article a {
+  margin: 0.5em;
+  font-size: 1.2;
+  color: white;
+}
+.article div {
+  padding: 0.1em;
+  border: solid 1px black;
+  border-radius: 0.5em;
+  box-shadow: 0em 0em 0.2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.nav {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-right: solid 1px black;
+}
+.nav h1 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+.nav hr {
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.nav button {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  transition: background-color 0.25s, color 0.25s;
+  background-color: var(--background);
+  color: var(--textcolor);
+  font-size: 1.25em;
+  padding: 0.15em;
+  border-radius: 0 0.5em 0.5em 0;
+  text-align: left;
+}
+.nav button:hover {
+  background-color: var(--textcolor);
+  color: var(--background);
+}/*# sourceMappingURL=style.css.map */

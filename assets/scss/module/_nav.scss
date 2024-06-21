@@ -1,0 +1,53 @@
+.nav{
+    width: 20%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    border-right: solid 1px black;
+
+    h1{
+        margin: {
+            left: 5%;
+            right: 5%;
+            bottom: 1em;
+            top: 0.5em;
+        }
+    }
+
+    hr{
+        margin: {
+            right: 1%;
+            left: 1%;
+            top: 0.5em;
+            bottom: 0.5em;
+            }
+    }
+
+    button{
+        margin: {
+            right: 5%;
+            left: 5%;
+            top: 0.5em;
+            bottom: 0.5em;
+        }
+
+        transition: background-color 0.25s , color 0.25s;
+
+        background-color: var(--background);
+        color: var(--textcolor);
+        
+        &:hover{
+            background-color: var(--textcolor);
+            color: var(--background);
+        }
+        
+        font-size: 1.25em;
+        padding: 0.15em;
+
+        border-radius: 0 0.5em 0.5em 0;
+        
+        text-align: left;
+    }
+}

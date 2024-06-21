@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background: rgb(32, 32, 32);
+    --textcolor: rgb(150, 150, 150);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    color: var(--textcolor);
+    overflow: hidden;
+}

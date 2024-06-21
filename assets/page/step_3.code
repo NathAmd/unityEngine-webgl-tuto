@@ -1,0 +1,39 @@
+
+§title:
+Création d’un mini-jeu
+
+§ligne:
+
+§zone:
+    §title2:
+    Scène : 
+
+    §text:
+    Dans l’onglet “Scènes”, créez une nouvelle scène en cliquant sur “Ajouter une scène”.
+§zone:
+
+§zone:
+    §title2:
+    Ajoutez des objets :
+
+    §text:
+    Ajoutez des objets 3D (comme des cubes, sphères, etc.) à votre scène.
+§zone:
+
+§zone:
+    §title2:
+    Scripts :
+
+    §text:
+    Créez des scripts pour gérer le comportement de vos objets (mouvement, interaction, etc.). Utilisez le langage C#.
+§zone:
+
+§zone:
+    §title2:
+    Testez votre jeu :
+
+    §text:
+    Testez votre jeu en mode “Jouer” dans Unity.
+§zone:
+
+§

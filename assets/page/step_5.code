@@ -1,0 +1,32 @@
+
+§title:
+Publication sur GitHub
+
+§ligne:
+
+
+§zone:
+    §title2:
+    Créez un dépôt GitHub : 
+
+    §text:
+    Créez un nouveau dépôt sur GitHub pour votre projet.
+§zone:
+
+§zone:
+    §title2:
+    Ajoutez les fichiers : 
+
+    §text:
+    Ajoutez les fichiers générés par Unity (dans le dossier de build) à votre dépôt.
+§zone:
+
+§zone:
+    §title2:
+    Publiez sur GitHub Pages : 
+
+    §text:
+    Activez GitHub Pages dans les paramètres de votre dépôt. Votre jeu sera accessible via une URL (par exemple, https://votre-nom.github.io/mon-petit-jeu-3d).
+§zone:
+
+§

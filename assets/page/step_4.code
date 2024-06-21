@@ -1,0 +1,31 @@
+
+§title:
+Compilation en WebGL
+
+§ligne:
+
+§zone:
+§title2:
+Build Settings :
+
+§text:
+Allez dans “Fichier” > “Paramètres de build”.
+§zone:
+
+§zone:
+§title2:
+Plateforme :
+
+§text:
+Sélectionnez “WebGL” comme plateforme de build.
+§zone:
+
+§zone:
+§title2:
+Cliquez sur “Build” :
+
+§text:
+Choisissez un dossier de destination et cliquez sur “Build”. Unity générera les fichiers WebGL.
+§zone:
+
+§
