@@ -2,7 +2,7 @@ import { loadPage } from './function.js'
 
 export async function fetchPage(page, query) {
     try {
-        const response = await fetch("/assets/page/" + page)
+        const response = await fetch("unityEngine-webgl-tuto/assets/page/" + page)
         if (response.ok) {
             print(response.text())
             // const html = await response.text()
