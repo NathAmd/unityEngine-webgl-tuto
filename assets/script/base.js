@@ -3,7 +3,7 @@ import { loadPage } from './module/function.js'
 
 
 //load site
-fetchPage("step_1.html", ".article")
+fetchPage("intro.code", ".article")
 
 let btn = document.querySelectorAll(".nav button")
 for (const x of btn) {
