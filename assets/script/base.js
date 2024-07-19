@@ -16,7 +16,6 @@ async function fetchPage(page, query) {
     try {
         const response = await fetch("./assets/page/" + page)
         if (response.ok) {
-            console.log(response.text())
             const html = await response.text()
             loadPage(html, query)
         } else {
